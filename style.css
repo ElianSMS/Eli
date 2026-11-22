@@ -104,6 +104,10 @@ body{
     background-size: cover;
     }
 
+.copyright, .copyright1, .copyright2, .copyright3, .copyright4, .copyright5, .copyright6, .copyright7, .copyright8, .copyright9 {
+display:  none;
+}
+
 }
 
 
@@ -236,7 +240,7 @@ body{
 
     .about-me {
         position: relative;
-        right: 50px;
+        right: 8%;
         top: 8%;
     }
     .art-link {
@@ -445,8 +449,8 @@ body{
    top: 42%;
    left: 22%;
    transform:rotate(-4deg);
-   font-size:21px;
-   line-height: 1.6;
+   font-size:15px;
+   line-height: 1.3;
    font-family: 'Sue Ellen Francisco', cursive;
 }
 @media (max-width: 768px) {
@@ -712,23 +716,30 @@ body{
 @media (max-width: 768px) {
     .contact-form {
         top: 25%;
-        left: 20%;
+        left: 22%;
         width: 60%;
-        padding: 10px;
+        padding: 0px;
+        height:53%;
     }
 
     .contact-form label {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .contact-form input,
     .contact-form textarea {
-        width: 90%;
-        font-size: 15px;
+        width: 80%;
+        font-size: 10px;
     }
 
     .contact-form textarea {
-        height: 100px;
+        height: 50px;
+    }
+
+    .contact-form button {
+    font-size: 8px;
+        padding: 2px 8px;
+    margin-top: 1%;
     }
 }
 
@@ -823,11 +834,11 @@ body{
     }
 
     .youtube {
-        transform: translate(40px, -50px);
+        transform: translate(30px, -35px);
     }
 
     .artstation {
-        transform: translate(20px, -95px);
+        transform: translate(12px, -65px);
     }
     
     .insta:hover {
@@ -875,9 +886,14 @@ body{
 .moving-cm a:visited {
     text-decoration: none !important;
 }
+/*thank u*/
 
-
-
+@media (max-width: 768px) {
+    .thanku {
+        width: 370%;
+        transform: translateX(-37%);
+    }
+}
 
 /*My art CONC*/
 body{
@@ -935,7 +951,7 @@ body{
         background-size: 108% auto;
         background-position: top center;
         background-repeat: no-repeat;
-        background-position: -15px -102px;        
+        background-position: -15px -67px;        
     }
 
     .right-cart {
@@ -1036,37 +1052,37 @@ h1 {
     h1 {
         font-family: 'andy', sans-serif;
             position: absolute;
-        top: 8%;
+        top: 11%;
         left: 26%;
         transform: rotate(-5deg);
-        font-size: 90px;
+        font-size: 50px;
             text-align: center;
             color: #202550;
     }
 
     .sal {
-    max-width: 400px;
+    max-width: 280px;
     height: auto; 
     padding-top: 58%;
-    padding-left: 20%;
+    padding-left: 13%;
     cursor: pointer;
     z-index: 1;
     }
 
 
     .dall1 {
-    max-width: 450px;
+    max-width: 280px;
     height: auto; 
     padding-top: 0%;
-    padding-left: 15%;
+    padding-left: 13%;
     cursor: pointer;
     }
 
     .tj1 {
-    max-width: 450px;
+    max-width: 280px;
     height: auto; 
     padding-top: 2%;
-    padding-left: 15%;
+    padding-left: 12%;
     cursor: pointer;
     }
 
@@ -1115,35 +1131,35 @@ h1 {
     }
 
     .xtj2 {
-        max-width: 410px;
+   max-width: 250px;
         height: auto;
         padding-top: 2%;
-        padding-left:12%; 
+        padding-left:16%; 
         cursor: pointer;
     }
     .xdall2 {
-        max-width: 400px;
+   max-width: 240px;
         height: auto;
         padding-top: 3%;
-        padding-left:20%; 
+        padding-left:13%; 
         cursor: pointer;
     }    
     .xlj {
-        max-width: 450px;
+   max-width: 280px;
         height: auto;
         padding-top: 3%;
         padding-left:13%; 
         cursor: pointer;
     }    
     .xmjfg {
-        max-width: 300px;
+   max-width: 200px;
         height: auto;
         padding-top: 2%;
         padding-left:12%; 
         cursor: pointer;
     }    
     .xtjdall {
-        max-width: 300px;
+   max-width: 200px;
         height: auto;
         padding-top: 3%;
         padding-left:32%; 
@@ -1324,7 +1340,7 @@ h1 {
         background-size: 108% auto;
         background-position: top center;
         background-repeat: no-repeat;
-        background-position: -15px -102px;        
+      background-position: -15px -67px;         
     }
 
     .right-iart {
@@ -1354,10 +1370,10 @@ h1 {
     .illu {
         font-family: 'andy', sans-serif;
             position: absolute;
-        top: 17%;
-        left: 26%;
+        top: 15%;
+        left: 23%;
         transform: rotate(-5deg);
-        font-size: 68px;
+        font-size: 45px;
             text-align: center;
             color: #202550;
     }
@@ -1409,7 +1425,7 @@ h1 {
 
 @media (max-width: 768px) {
     .nahs{
-        max-width: 400px;
+        max-width: 260px;
         height: auto; 
         padding-top: 57%;
         padding-left: 18%;
@@ -1417,7 +1433,7 @@ h1 {
     }
 
     .nahs2{
-        max-width: 320px;
+        max-width: 180px;
         height: auto; 
         padding-top: 1%;
         padding-left: 25%;
@@ -1429,7 +1445,7 @@ h1 {
     }
 
     .xtjdall2{
-        max-width: 400px;
+        max-width: 260px;
         height: auto; 
         padding-top: 5%;
         padding-left: 18%;
@@ -1437,7 +1453,7 @@ h1 {
     }    
 
     .xtjdall3{
-        max-width: 450px;
+        max-width: 260px;
         height: auto; 
         padding-top: 6%;
         padding-left: 13.5%;
@@ -1445,7 +1461,7 @@ h1 {
     }    
 
     .xeli{
-        max-width: 440px;
+        max-width: 260px;
         height: auto; 
         padding-top:8%;
         padding-left: 14%;
@@ -1502,7 +1518,7 @@ h1 {
         background-size: 108% auto;
         background-position: top center;
         background-repeat: no-repeat;
-        background-position: -15px -108px;        
+      background-position: -15px -67px;  
     }
 
     .right-aart {
@@ -1513,15 +1529,15 @@ h1 {
         background-size: 109.5% auto;
         background-position: top center;
         background-repeat: no-repeat;
-        background-position: -22px -600px; 
+        background-position: -22px -380px; 
     }
 
     .anim {
       font-family: 'andy', sans-serif;
       position: absolute;
       top: 17%;
-      left: 26%;
-      font-size: 80px;
+      left: 22%;
+      font-size: 55px;
       text-align: center;
       color: #202550;  
     }
