@@ -12,8 +12,8 @@
     font-style: normal;
 }
 
-.copyright, .copyright1, .copyright2, .copyright3, .copyright4, .copyright5, .copyright6, .copyright7, .copyright8, .copyright9 {
-    position: fixed;
+.copyright2{
+        position: fixed;
     font-family: "Sue Ellen Francisco", cursive;
     bottom: -1.15%;
     left: 50%;
