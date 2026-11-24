@@ -453,7 +453,13 @@ body{
    line-height: 1.3;
    font-family: 'Sue Ellen Francisco', cursive;
 }
+
 @media (max-width: 1400px) {
+    .desktop-statement{
+        font-size: 30px;
+    }
+
+@media (max-width: 768px) {
     .desktop-statement{
         display: none;
     }
