@@ -264,7 +264,7 @@ function changeArtwork(direction) {
     let destination;
 
     // MOBILE: illustration page D goes to animation page F
-    if (window.innerWidth <= 768 &&
+    if (window.innerWidth <= 1300 &&
         currentPage === "my-art-d.html" &&
         direction === 1) {
 
@@ -362,7 +362,7 @@ if (openPosition && artworks.length > 0) {
 
 <script>
     document.querySelector(".next").addEventListener("click", function() {
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth <= 1300) {
         window.location.href = "my-art-f.html";
     } else {
         window.location.href = "my-art-e.html";
@@ -370,7 +370,7 @@ if (openPosition && artworks.length > 0) {
 });
 </script>
 
-<p class="copyright2">
+<p class="copyright6">
     This work is of the sole ownership of Elian.SMS
     and may not be put through any form of
     generative AI.
